@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZettaMorph | Tu plataforma de RRHH viva e inteligente</title>
+    <meta name="description"
+        content="ZettaMorph es la primera plataforma de RRHH de 360 grados impulsada por agentes de IA que se reconfigura en tiempo real según las necesidades de tu empresa.">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo" style="display: flex; align-items: center;">
+            <img src="assets/ChatGPT Image 6 jun 2026, 02_20_09 p.m..png" alt="ZettaMorph Logo"
+                style="height: 100px; display: block;">
+        </div>
+        <div class="nav-links">
+            <a href="#solucion">Solución</a>
+            <a href="#caracteristicas">Características</a>
+            <a href="#casos">Casos de Uso</a>
+            <a href="#roi">ROI</a>
+            <a href="#cta" class="btn btn-outline">Empezar</a>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Tu plataforma de RRHH no debería solo seguirte el ritmo.<br><span class="highlight">Debería
+                    evolucionar.</span></h1>
+            <p class="subtitle">Construye, despliega y orquesta agentes de IA que no solo usan tu sistema SaaS — lo
+                rediseñan en tiempo real. ZettaMorph es la primera plataforma SaaS 360 grados que se reconfigura
+                según las necesidades cambiantes de tu empresa. ZettaMorph no es solo un sistema, es el corazón de tu
+                negocio.
+                Autoeditable y autogestionable</p>
+            <div class="cta-group">
+                <button onclick="openModal()" class="btn btn-primary">Lanza Tu Plataforma Viva &rarr;</button>
+
+            </div>
+        </div>
+        <div class="hero-carousel">
+            <div class="carousel-track">
+                <div class="carousel-slide active">
+                    <img src="assets/Saas_1.png" alt="ZettaMorph SaaS 1">
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/Saas_2.png" alt="ZettaMorph SaaS 2">
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/Saas_3.png" alt="ZettaMorph SaaS 3">
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/Saas_4.png" alt="ZettaMorph SaaS 4">
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/Saas_5.png" alt="ZettaMorph SaaS 5">
+                </div>
+            </div>
+            <div class="carousel-dots">
+                <span class="dot active" onclick="goToSlide(0)"></span>
+                <span class="dot" onclick="goToSlide(1)"></span>
+                <span class="dot" onclick="goToSlide(2)"></span>
+                <span class="dot" onclick="goToSlide(3)"></span>
+                <span class="dot" onclick="goToSlide(4)"></span>
+            </div>
+            <div class="glow-effect"></div>
+        </div>
+    </header>
+
+    <!-- 2. Problem / Solution Framework -->
+    <section id="solucion" class="section problem-solution">
+        <div class="section-header">
+            <h2>El software tradicional de RRHH fue construido para <span class="highlight">un mundo que ya no
+                    existe.</span></h2>
+        </div>
+        <div class="pain-points-grid">
+            <div class="card glass">
+                <h3>Flujos de trabajo rígidos</h3>
+                <p>Tu organigrama cambió el martes pasado; tu plataforma se pondrá al día en el tercer trimestre.</p>
+                <div class="cost"><strong>Costo:</strong> Semanas de desajuste.</div>
+            </div>
+            <div class="card glass">
+                <h3>Dispersión de integraciones</h3>
+                <p>Nóminas aquí, cumplimiento allá. Cada costura es una fuga de datos y una reconciliación manual.</p>
+                <div class="cost"><strong>Costo:</strong> Carga administrativa innecesaria, credenciales de uso
+                    dispersas.</div>
+            </div>
+            <div class="card glass">
+                <h3>Solución única para todos</h3>
+                <p>La "configuración" que pagaste es la configuración de alguien más. Esperas tickets y consultores.</p>
+                <div class="cost"><strong>Costo:</strong> $80K-$250K anuales en implementación.</div>
+            </div>
+            <div class="card glass">
+                <h3>Inteligencia estática</h3>
+                <p>Los paneles te dicen qué pasó, pero no qué hacer a continuación. No pueden actuar.</p>
+                <div class="cost"><strong>Costo:</strong> Decisiones reactivas con días de retraso.</div>
+            </div>
+        </div>
+
+        <div class="solution-box glass glow-border">
+            <h3>La Solución: Una plataforma que piensa, se adapta y se reconstruye a sí misma.</h3>
+            <p>ZettaMorph no parchea el modelo antiguo — lo reemplaza por completo.</p>
+            <p>Imagina que en el ecosistema de tu negocio <strong>los agentes de IA que tú creas</strong> pueden leer
+                las
+                señales en tiempo real de tu organización —un aumento en la contratación, un cambio normativo, una
+                reestructuración— y <strong>reconfigurar flujos de trabajo, interfaces y políticas de forma
+                    autónoma</strong> antes de que tu equipo abra un ticket.</p>
+            <p class="vision">Esto no es automatización sobre software heredado. Es una <strong>arquitectura
+                    viva</strong> donde la frontera entre "lo que hace el sistema" y "lo que necesitas que haga" se
+                disuelve por completo.</p>
+            <a href="#caracteristicas" class="btn btn-secondary">Ver la arquitectura en acción &rarr;</a>
+        </div>
+    </section>
+
+    <!-- 3. Key Feature Breakdown -->
+    <section id="caracteristicas" class="section features">
+        <div class="section-header text-center">
+            <h2>Tres Pilares. <span class="highlight">Una Capa de Inteligencia Unificada.</span></h2>
+        </div>
+
+        <!-- Pillar 1 -->
+        <div class="feature-pillar" style="flex-direction: column; gap: 40px;">
+            <div class="pillar-text" style="width: 100%; text-align: left;">
+                <h3>1. Gestión de RRHH 360°</h3>
+                <p class="tagline">Cada dimensión de las operaciones de personal. Un único centro gravitacional.</p>
+                <p>La capa principal SaaS de ZettaMorph cubre el ciclo de vida completo: no como módulos añadidos, sino
+                    como un <strong>tejido de datos unificado</strong> donde cada acción informa inmediatamente a las
+                    demás.</p>
+                <ul class="feature-list" style="margin-top: 30px;">
+                    <li>Adquisición de Talento &amp; Onboarding</li>
+                    <li>Administración de Fuerza Laboral</li>
+                    <li>Nóminas y Compensación</li>
+                    <li>Rendimiento y Crecimiento</li>
+                    <li>Aprendizaje y Desarrollo</li>
+                    <li>Cumplimiento y Riesgo</li>
+                </ul>
+                <div class="alert alert-important">
+                    <strong>Unificado por diseño, no por adquisición:</strong> Todos los módulos comparten un modelo de
+                    datos, una capa de permisos y una ventana de contexto de IA. Lo que convierte la gestión de personal
+                    en un servicio completo, no solo en un software.
+                </div>
+            </div>
+            <div style="width: 65%; margin: 0 auto; border-radius: 20px; overflow: hidden;">
+                <img src="assets/SaaS_4.png" alt="Gestión de RRHH ZettaMorph"
+                    style="width: 100%; height: auto; display: block; border-radius: 20px; box-shadow: 0 20px 50px rgba(0,0,0,0.4);">
+            </div>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div class="feature-pillar" style="flex-direction: column; gap: 40px;">
+            <div class="pillar-text" style="width: 100%; text-align: left;">
+                <h3>2. Creación y Orquestación de Agentes IA</h3>
+                <p class="tagline">Tus reglas. Tu lógica. Tus agentes. Sin doctorado en ML requerido.</p>
+                <p>El "Agent Studio" de ZettaMorph permite a cualquiera diseñar, entrenar y desplegar agentes de IA que
+                    operan <em>dentro</em> de la plataforma con los mismos permisos y capacidades que un operador
+                    humano.</p>
+                <ul class="feature-list" style="margin-top: 30px;">
+                    <li><strong>Leer e Interpretar:</strong> Consumen datos estructurados y señales no estructuradas en
+                        tiempo real.</li>
+                    <li><strong>Decidir y Actuar:</strong> Aprueban permisos, redactan ofertas, cambian flujos
+                        autónomamente.</li>
+                    <li><strong>Colaborar:</strong> Los agentes se comunican entre sí para ejecutar cadenas de
+                        decisiones complejas.</li>
+                </ul>
+                <div class="alert alert-caution">
+                    <strong>Gobernanza y Seguridad:</strong> Permisos limitados por roles, aprobación humana obligatoria
+                    para operaciones sensibles, rastro de auditoría completo y botón de pánico.
+                </div>
+            </div>
+            <div style="width: 65%; margin: 0 auto; border-radius: 20px; overflow: hidden;">
+                <img src="assets/Flujos.png" alt="Agent Studio Flujos ZettaMorph"
+                    style="width: 100%; height: auto; display: block; border-radius: 20px; box-shadow: 0 20px 50px rgba(0,0,0,0.4);">
+            </div>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div class="feature-pillar" style="flex-direction: column; gap: 40px;">
+            <div class="pillar-text" style="width: 100%; text-align: left;">
+                <h3>3. Evolución de la Plataforma en Tiempo Real</h3>
+                <p class="tagline">La plataforma que se reconstruye a sí misma mientras duermes.</p>
+                <p>Lo que separa a ZettaMorph del resto: Los agentes de IA no solo operan en la plataforma, la
+                    <strong>modifican</strong>. Flujos de trabajo, campos de formularios, cadenas de aprobación y
+                    paneles se reconfiguran en respuesta a señales de la organización.
+                </p>
+                <div class="mutation-table" style="margin-top: 20px;">
+                    <div class="mutation-row">
+                        <strong>Señal:</strong> Nueva ley de cumplimiento (ej. IA Act UE).
+                        <br><strong>Mutación:</strong> Agente legal genera flujos de consentimiento, adapta roles y
+                        encola módulos de entrenamiento.
+                    </div>
+                    <div class="mutation-row">
+                        <strong>Señal:</strong> Encuesta revela agotamiento en Ingeniería.
+                        <br><strong>Mutación:</strong> Agente de bienestar actualiza los dashboards directivos con
+                        indicadores y cambia frecuencias de encuestas de pulso.
+                    </div>
+                </div>
+            </div>
+            <div style="width: 65%; margin: 0 auto; border-radius: 20px; overflow: hidden;">
+                <img src="assets/Codig_Lab.png" alt="Evolución de la Plataforma ZettaMorph"
+                    style="width: 100%; height: auto; display: block; border-radius: 20px; box-shadow: 0 20px 50px rgba(0,0,0,0.4);">
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Use Case Scenarios -->
+    <section id="casos" class="section use-cases">
+        <div class="section-header text-center">
+            <h2>Una Plataforma. Cada Escenario. <span class="highlight">Siempre Actualizada.</span></h2>
+        </div>
+        <div class="cases-grid">
+            <div class="case-card glass">
+                <div class="case-icon"></div>
+                <h3>Hipercrecimiento</h3>
+                <p><strong>El Reto:</strong> Escalar de 200 a 2,000 empleados en 4 geografías en 18 meses.</p>
+                <p><strong>Cómo ZettaMorph se adapta:</strong> El agente de expansión aprovisiona entidades locales,
+                    políticas y flujos de onboarding en idiomas específicos sin requerir proyectos de implementación.
+                </p>
+                <div class="case-result"><strong>Resultado:</strong> Cada país operativo en 48 horas, no 6 meses.</div>
+            </div>
+            <div class="case-card glass">
+                <div class="case-icon"></div>
+                <h3>Integración Post-Fusión</h3>
+                <p><strong>El Reto:</strong> Integrar dos culturas y arquitecturas de puestos diferentes de una empresa
+                    adquirida.</p>
+                <p><strong>Cómo ZettaMorph se adapta:</strong> El agente de mapeo propone un marco unificado. El agente
+                    de armonización modela escenarios salariales. La plataforma misma se reestructura uniendo
+                    organigramas.</p>
+                <div class="case-result"><strong>Resultado:</strong> Lista para el día 1 en 30 días. Integración
+                    manejada desde la plataforma.</div>
+            </div>
+            <div class="case-card glass">
+                <div class="case-icon"></div>
+                <h3>Choque de Cumplimiento</h3>
+                <p><strong>El Reto:</strong> Nueva legislación de privacidad con fecha límite de 90 días.</p>
+                <p><strong>Cómo ZettaMorph se adapta:</strong> Inteligencia regulatoria genera flujos de consentimiento
+                    y modifica la plataforma para auditar controles de acceso. Un dashboard de cumplimiento se
+                    auto-ensambla.</p>
+                <div class="case-result"><strong>Resultado:</strong> Cumplimiento total en 45 días. Cero consultoría
+                    externa.</div>
+            </div>
+            <div class="case-card glass">
+                <div class="case-icon"></div>
+                <h3>Cambio a Trabajo Distribuido</h3>
+                <p><strong>El Reto:</strong> Transición de un modelo centrado en la oficina a uno remoto
+                    permanentemente.</p>
+                <p><strong>Cómo ZettaMorph se adapta:</strong> Se ajustan modelos de políticas de oficina, las métricas
+                    de encuestas mutan a "efectividad asíncrona", y las evaluaciones de rendimiento priorizan el output.
+                </p>
+                <div class="case-result"><strong>Resultado:</strong> El sistema es un espejo continuo del modelo
+                    operativo.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Value Proposition Summary -->
+    <section id="roi" class="section roi">
+        <div class="section-header text-center">
+            <h2>El ROI de una plataforma que <span class="highlight">nunca deja de mejorar.</span></h2>
+        </div>
+
+        <div class="roi-content">
+            <table class="roi-table glass">
+                <thead>
+                    <tr>
+                        <th>Métrica</th>
+                        <th>Stack de RRHH Tradicional</th>
+                        <th>Con ZettaMorph</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tiempo para desplegar nuevo flujo</td>
+                        <td>4–12 semanas</td>
+                        <td class="highlight-cell">Minutos a horas</td>
+                    </tr>
+                    <tr>
+                        <td>Gasto anual en integración/consultoría</td>
+                        <td>$80K–$250K+</td>
+                        <td class="highlight-cell">Casi cero</td>
+                    </tr>
+                    <tr>
+                        <td>Carga admin. de RRHH por empleado</td>
+                        <td>1 FTE por cada 50–80 emp.</td>
+                        <td class="highlight-cell">1 FTE por cada 150–200 emp.</td>
+                    </tr>
+                    <tr>
+                        <td>Tiempo de preparación (nuevo país)</td>
+                        <td>3–6 meses</td>
+                        <td class="highlight-cell">48–72 horas</td>
+                    </tr>
+                    <tr>
+                        <td>Errores de conciliación de datos</td>
+                        <td>5–15% (sincronización multi-sistema)</td>
+                        <td class="highlight-cell">
+                            < 0.1% (tejido de datos único)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="value-pillars">
+                <div class="value-item">
+                    <h4>⚡ Agilidad</h4>
+                    <p>ZettaMorph traduce decisiones estratégicas en realidad operativa en tiempo real. Sin tickets de
+                        soporte.</p>
+                </div>
+                <div class="value-item">
+                    <h4>🛡️ A Prueba de Futuro</h4>
+                    <p>La arquitectura evoluciona con tu organización. Es la última migración de plataforma que harás.
+                    </p>
+                </div>
+                <div class="value-item">
+                    <h4>📊 Inteligencia Compuesta</h4>
+                    <p>Cada interacción retroalimenta al sistema. Se vuelve más inteligente y entiende tus patrones cada
+                        día.</p>
+                </div>
+                <div class="value-item">
+                    <h4>💰 Menor Costo Total (TCO)</h4>
+                    <p>Consolida de 8-12 soluciones a una sola. Elimina middleware de integración y dependencia de
+                        consultores.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Final Conversion -->
+    <section id="cta" class="section final-cta glass glow-border text-center">
+        <h2>Hacia aquí se dirigía la tecnología de RRHH.<br>Nosotros llegamos primero.</h2>
+        <p class="final-text">Tu competencia sigue enviando tickets de soporte para cambiar un menú desplegable.
+            <strong>Tú podrías estar desplegando agentes que rediseñan flujos completos de la noche a la
+                mañana.</strong>
+        </p>
+
+        <div class="cta-group center">
+            <button onclick="openModal()" class="btn btn-primary pulse">Comienza a Construir Tu Plataforma
+                &rarr;</button>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="logo" style="display: flex; align-items: center;">
+                <img src="assets/ChatGPT Image 6 jun 2026, 02_20_09 p.m..png" alt="ZettaMorph Logo"
+                    style="height: 100px; display: block;">
+            </div>
+            <p>&copy; 2026 ZettaMorph. Una plataforma de SaaS viva.</p>
+        </div>
+    </footer>
+
+    <!-- Contact Modal -->
+    <div id="contactModal" class="modal-overlay" onclick="handleOverlayClick(event)">
+        <div class="modal-box glass">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <div id="modalForm">
+                <h2 class="modal-title">Habla con nuestro equipo</h2>
+                <p class="modal-subtitle">Te contactaremos en menos de 24 horas.</p>
+                <form id="contactForm" onsubmit="submitForm(event)">
+                    <div class="form-group">
+                        <label for="fullName">Nombre y Apellidos</label>
+                        <input type="text" id="fullName" placeholder="Ej. María García López" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" placeholder="tu@empresa.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Número de Teléfono</label>
+                        <input type="tel" id="phone" placeholder="+34 600 000 000" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width:100%; margin-top:8px;">Enviar
+                        &rarr;</button>
+                </form>
+            </div>
+            <div id="modalSuccess" style="display:none;" class="modal-success">
+                <div class="success-icon">✓</div>
+                <h2>¡Recibido!</h2>
+                <p>Gracias por tu interés. Nuestro equipo se pondrá en contacto contigo muy pronto.</p>
+                <button onclick="closeModal()" class="btn btn-primary" style="margin-top:24px;">Cerrar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
